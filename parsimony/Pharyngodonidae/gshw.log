@@ -1,0 +1,264 @@
+
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Mon Dec 04 11:54:36 2017
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 37 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    6 characters are constant
+    5 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 26
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 15
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 37 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          6 characters are constant
+          5 variable characters are parsimony-uninformative
+          Number of parsimony-informative characters = 26
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 423117436
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+     'MaxTrees' limit (100) hit while swapping on tree #55 (score=54)
+
+Search terminated prematurely (no room to store new trees)
+   100 trees retained
+   Time used = 2.59 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1       100         1       100           54            1       1
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------ Angusticaecum ho
+|
+|         /-------------------------------------------------- Alaeuris numidic
+|         |
+|         |                                       /---------- Tachygonetria co
+|         |                             /---------+
+|         |                             |         \---------- T.dentata
+|         |                             |
+|         |                             |         /---------- T.numidica
+|         |                   /---------+---------+
+|         |                   |         |         \---------- T.poulini
++---------+                   |         |
+|         |                   |         \-------------------- T.Vivipara
+|         |         /---------+
+|         |         |         |                   /---------- T.khallaayounei
+|         |         |         |         /---------+
+|         |         |         |         |         \---------- T.marocana
+|         |         |         \---------+
+|         |         |                   \-------------------- T.Settatensis
+|         \---------+
+|                   |                             /---------- T.conica
+|                   |                   /---------+
+|                   |                   |         \---------- T.palearcticus
+|                   |                   |
+|                   \-------------------+         /---------- T.longicollis
+|                                       |         |
+|                                       \---------+---------- T.Pusilla
+|                                                 |
+|                                                 \---------- T.Setosa
+|
+\------------------------------------------------------------ Raillietnema bai
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 37 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       6 characters are constant
+       5 variable characters are parsimony-uninformative
+       Number of parsimony-informative characters = 26
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+    28                  27                 12             8            12
+Alaeuris numidic (1)    28                  5             2             6
+    26                  28                  8             5            11
+    22                  26                  1             0             2
+    19                  22                  1             1             1
+    17                  19                  2             2             2
+Tachygonetria co (2)    17                  1             1             1
+T.dentata (4)           17                  0             0             0
+    18                  19                  2             2             2
+T.numidica (8)          18                  1             1             1
+T.poulini (10)          18                  0             0             0
+T.Vivipara (14)         19                  1             1             1
+    21                  22                  1             1             1
+    20                  21                  1             1             1
+T.khallaayounei (5)     20                  2             2             2
+T.marocana (7)          20                  0             0             0
+T.Settatensis (12)      21                  2             2             2
+    25                  26                  2             1             3
+    23                  25                  3             3             4
+T.conica (3)            23                  1             1             2
+T.palearcticus (9)      23                  2             1             2
+    24                  25                  2             1             3
+T.longicollis (6)       24                  0             0             0
+T.Pusilla (11)          24                  2             2             2
+T.Setosa (13)           24                  0             0             0
+Angusticaecum ho (15)*  27                  1             1             1
+Raillietnema bai (16)   27                  1             1             1
+-------------------------------------------------------------------------
+Sum                                        54
+
+Tree length = 54
+Consistency index (CI) = 0.8333
+Homoplasy index (HI) = 0.1667
+CI excluding uninformative characters = 0.8163
+HI excluding uninformative characters = 0.1837
+Retention index (RI) = 0.8448
+Rescaled consistency index (RC) = 0.7040
+
+                           /----------- Alaeuris numidic
+                           |
+                           |                         /--- Tachygonetria co
+                           |                     /--17
+                           |                     |   \ T.dentata
+                           |                     |
+                           |                     |   /--- T.numidica
+                           |                   /19--18
+                           |                   | |   \ T.poulini
+/-------------------------28                   | |
+|                          |                   | \-- T.Vivipara
+|                          |                /-22
+|                          |                |  |   /----- T.khallaayounei
+|                          |                |  | /20
+|                          |                |  | | \ T.marocana
+|                          |                |  \21
+|                          |                |    \---- T.Settatensis
+|                          \---------------26
+|                                           |           /-- T.conica
+|                                           |    /-----23
+27                                          |    |      \---- T.palearcticus
+|                                           |    |
+|                                           \---25   / T.longicollis
+|                                                |   |
+|                                                \--24----- T.Pusilla
+|                                                    |
+|                                                    \ T.Setosa
+|
++-- Angusticaecum ho
+|
+\-- Raillietnema bai
+
+100 trees saved to file "C:\Users\HP\Desktop\实验-2017-12-
+04\陆龟科寄生种\mp.tre"
+
+50% Majority-rule consensus of 100 trees
+
+/-------------------------------------------------------- Angusticaecum ho(15)
+|
+|        /----------------------------------------------- Alaeuris numidic(1)
+|        |
+|        |                                     /--------- Tachygonetria co(2)
+|        |                           /---100---+
+|        |                           |         \--------- T.dentata(4)
+|        |         /-------53--------+
+|        |         |                 \------------------- T.Vivipara(14)
+|        |         |
++--100---+         |                           /--------- T.conica(3)
+|        |         |        /-------100--------+
+|        |         |        |                  \--------- T.palearcticus(9)
+|        |         |        |
+|        |         +---52---+                  /--------- T.longicollis(6)
+|        |         |        |        /---67----+
+|        |         |        |        |         \--------- T.Setosa(13)
+|        \---100---+        \---62---+
+|                  |                 \------------------- T.Pusilla(11)
+|                  |
+|                  |                           /--------- T.khallaayounei(5)
+|                  |                 /---95----+
+|                  |                 |         \--------- T.marocana(7)
+|                  +-------62--------+
+|                  |                 \------------------- T.Settatensis(12)
+|                  |
+|                  |                           /--------- T.numidica(8)
+|                  \------------91-------------+
+|                                              \--------- T.poulini(10)
+|
+\-------------------------------------------------------- Raillietnema bai(16)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1     1
+1234567890123456      Freq
+--------------------------
+.*************..       100
+..............**       100
+.*.*............       100
+..*.....*.......       100
+....*.*.........        95
+.......*.*......        91
+.....*......*...        67
+....*.*....*....        62
+.....*....*.*...        62
+.*.*.........*..        53
+..*..*..*.*.*...        52
+.******.*.****..        48
+.*.*...*.*...*..        46
+..*.***.*.***...        45
+..*..*..*...*...        38
+.....*....***...        24
+..*..*..*.***...        19
+....***...***...        16
+.*.**.**.*.*.*..         8
+.***.*.*******..         8
+.***.*..*.****..         7
+.*.**.*....*.*..         6
+.*.*****.*****..         5
+.*.****...****..         5
+.****.*.*..*.*..         2
+.****.****.*.*..         2
+....*......*....         2
+.*********.***..         1
+
+Consensus tree(s) written to treefile: C:\Users\HP\Desktop\实验-2017-12-
+04\陆龟科寄生种\MajorityConTree.tre

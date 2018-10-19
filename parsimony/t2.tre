@@ -1,0 +1,18 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat Sep 30 18:02:47 2017]
+
+	Translate
+1 1Tubiluchus_priapulida
+2 9Microdictyon
+3 11Hallucigenia_sparsa
+4 14Luolishania
+5 30Kerygmachela
+6 32Opabinia
+7 33Anonalocaris
+8 35Hurdia
+9 38Fuxianhuia
+10 40Leanchoilia,
+		;
+tree PAUP = [&U] (1,(((2,4),3),((5,(6,(7,8))),(9,10))));
+End;

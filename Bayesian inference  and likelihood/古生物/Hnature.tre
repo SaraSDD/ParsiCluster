@@ -1,0 +1,61 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Jan 26 16:44:52 2018]
+[!
+>Data file = C:\Users\Administrator\Desktop\2018Äê1ÔÂ26\Hnature\Hnature.nex
+>Heuristic search settings:
+>   Optimality criterion = maximum parsimony
+>      Character-status summary:
+>        Of 41 total characters:
+>          All characters are of type 'unord'
+>          All characters have equal weight
+>          8 characters are constant
+>          4 variable characters are parsimony-uninformative
+>          Number of parsimony-informative characters = 29
+>      Gaps are treated as "missing"
+>   Starting tree(s) obtained via stepwise addition
+>   Addition sequence: random
+>      Number of replicates = 10
+>      Starting seed = 557359038
+>   Number of trees held at each step during stepwise addition = 1
+>   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>   Steepest descent option not in effect
+>   Initial 'MaxTrees' setting = 100
+>   Branches collapsed (creating polytomies) if maximum branch length is zero
+>   'MulTrees' option in effect
+>   Topological constraints not enforced
+>   Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 73104
+>   Score of best tree(s) found = 54
+>   Number of trees retained = 42
+>   Time used = 0.03 sec
+]
+	Translate
+		1 Cnidaria,
+		2 Arthropoda,
+		3 Onychophora,
+		4 Kinorhyncha,
+		5 Priapulida,
+		6 Mollusca,
+		7 Annelida,
+		8 Echinodermata,
+		9 Enteropneusta,
+		10 Urochordata,
+		11 Cephalochordata,
+		12 Vertebrata,
+		13 Vetulicola,
+		14 Beidazoon,
+		15 Pomatrum,
+		16 Xidazoon
+		;
+
+tree model = [&U] (1,((((2,3),(4,5)),(6,7)),((8,9),(10,(11,12)),((13,14),(15,16)))));
+tree PC = [&U] (1,((((2,3),(4,5)),(6,7)),((8,9),((10,(11,12)),((13,14),(15,16))))));
+tree PC_1 = [&U] ((1,((9,(10,11)),12)),(((2,3),(4,5)),((6,7),(8,((13,14),(15,16))))));
+tree MP_miss = [&U] (1,(((((2,3),(4,5)),(6,7)),8),(9,((10,(11,12)),((13,14),(15,16))))));
+tree MP_real = [&U] (1,((((((((2,(4,5)),3),(6,7)),8),((13,14),(15,16))),9),(11,12)),10));
+tree BI = [&U] (1,((((2,(4,5)),3),6,7),8,(((13,14),(15,16)),9,((11,12),10))));
+tree ML = [&U] (1,(((((2,(4,5),3),6),7),8,9,((13,14),(15,16))),(11,12),10));
+End;

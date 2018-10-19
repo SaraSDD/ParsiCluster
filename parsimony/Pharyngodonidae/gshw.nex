@@ -1,0 +1,75 @@
+#NEXUS
+
+begin taxa;
+	dimensions ntax=16;
+	taxlabels
+Alaeuris_numidica
+Tachygonetria_combesi
+T.conica
+T.dentata
+T.khallaayounei
+T.longicollis
+T.marocana
+T.numidica
+T.palearcticus
+T.poulini
+T.Pusilla
+T.Settatensis
+T.Setosa
+T.Vivipara
+Angusticaecum_holopterum
+Raillietnema_bainae
+;
+end;
+
+begin characters;
+	dimensions nchar=37;
+	format 
+              datatype=STANDARD
+              missing=? gap=N
+              SYMBOLS="0 1 2 3 4 5";
+	matrix
+Alaeuris_numidica
+0110001001110211000500042201121002010
+Tachygonetria_combesi
+2110001012000110010000000010111001210
+T.conica
+2201001001000010010200100000111003210
+T.dentata
+2110001012000110010000000000111001210
+T.khallaayounei
+2110000002000110011000010000111002210
+T.longicollis
+2110001001000010110300100000111002210
+T.marocana
+2110001001000110011000010000111002210
+T.numidica
+2110001001000110010100020010111001210
+T.palearcticus
+2201001001000110010200100010111002210
+T.poulini
+2110001001000110010100020000111001210
+T.Pusilla
+2110001001000010110300010000111002210
+T.Settatensis
+2110001000000110111000000000111002210
+T.Setosa
+2110001001000010110300100000111002210
+T.Vivipara
+1110001001000110010000000000111001210
+Angusticaecum_holopterum
+0100001001110210000511322002100010101
+Raillietnema_bainae
+0100001001110210000511322002101110101
+;
+end;
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+IQ-TREE multicore version 1.6.1 for Windows 64-bit built Dec 26 2017
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LAPTOP-Q5UID8SI (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s Hnature.phy -m MK -bb 1000 -minsup 0.5 -redo
+Seed:    219048 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat May 19 22:18:25 2018
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Hnature.phy ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+Alignment has 16 sequences with 41 columns, 36 distinct patterns
+29 parsimony-informative, 4 singleton sites, 8 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  Cnidaria          21.95%    failed      0.38%
+   2  Arthropoda        24.39%    passed     28.25%
+   3  Onychophora       24.39%    passed     57.34%
+   4  Kinorhyncha       24.39%    passed     93.39%
+   5  Priapulida        26.83%    passed     89.85%
+   6  Mollusca          24.39%    passed     31.96%
+   7  Annelida          24.39%    passed     47.75%
+   8  Echinodermata     26.83%    passed     19.57%
+   9  Enteropneusta     21.95%    passed     91.53%
+  10  Urochordata       17.07%    passed     66.94%
+  11  Cephalochordata   19.51%    passed     38.30%
+  12  Vertebrata        19.51%    passed     64.49%
+  13  Vetulicola         4.88%    passed     33.61%
+  14  Beidazoon          4.88%    passed     33.61%
+  15  Pomatrum           4.88%    passed     37.89%
+  16  Xidazoon           4.88%    passed     37.89%
+****  TOTAL             18.45%  1 sequences failed composition chi2 test (p-value<5%; df=2)
+NOTE: Beidazoon is identical to Vetulicola but kept for subsequent analysis
+NOTE: Xidazoon is identical to Pomatrum but kept for subsequent analysis
+Creating fast initial parsimony tree by random order stepwise addition...
+0.007 seconds, parsimony score: 54 (based on 33 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 219048)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -256.001
+Optimal log-likelihood: -245.802
+Parameters optimization took 1 rounds (0.008 sec)
+Computing ML distances based on estimated model parameters... 0.016 sec
+Computing BIONJ tree...
+0.010 seconds
+Log-likelihood of BIONJ tree: -244.319
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.088 second
+Computing log-likelihood of 98 initial trees ... 0.120 seconds
+Current best score: -243.907
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -243.906
+Iteration 10 / LogL: -243.906 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -243.906
+Iteration 20 / LogL: -245.547 / Time: 0h:0m:0s
+Finish initializing candidate tree set (7)
+Current best tree score: -243.906 / CPU time: 0.423
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -243.910 / Time: 0h:0m:0s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -243.906
+Iteration 40 / LogL: -243.906 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 50 / LogL: -243.910 / Time: 0h:0m:1s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -259.020
+UPDATE BEST LOG-LIKELIHOOD: -243.906
+Iteration 60 / LogL: -244.778 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 70 / LogL: -244.794 / Time: 0h:0m:1s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -243.906
+Iteration 80 / LogL: -244.813 / Time: 0h:0m:2s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -243.906
+Iteration 90 / LogL: -245.285 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -244.783 / Time: 0h:0m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -259.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -243.906
+Optimal log-likelihood: -243.906
+Parameters optimization took 1 rounds (0.008 sec)
+BEST SCORE FOUND : -243.906
+Creating bootstrap support values...
+Split supports printed to NEXUS file Hnature.phy.splits.nex
+Total tree length: 1.900
+
+Total number of iterations: 102
+CPU time used for tree search: 2.547 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.782 sec (0h:0m:2s)
+Total CPU time used: 2.625 sec (0h:0m:2s)
+Total wall-clock time used: 3.075 sec (0h:0m:3s)
+
+Computing bootstrap consensus tree...
+Reading input file Hnature.phy.splits.nex...
+16 taxa and 123 splits.
+Consensus tree written to Hnature.phy.contree
+Reading input trees file Hnature.phy.contree
+Log-likelihood of consensus tree: -260.093
+
+Analysis results written to: 
+  IQ-TREE report:                Hnature.phy.iqtree
+  Maximum-likelihood tree:       Hnature.phy.treefile
+  Likelihood distances:          Hnature.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Hnature.phy.splits.nex
+  Consensus tree:                Hnature.phy.contree
+  Screen log file:               Hnature.phy.log
+
+Date and Time: Sat May 19 22:18:28 2018

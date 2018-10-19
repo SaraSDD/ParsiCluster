@@ -1,0 +1,69 @@
+#NEXUS
+
+begin taxa;
+	dimensions ntax=14;
+	taxlabels
+Cycloneuralia
+Aysheaia
+Xenusion
+Hadranax
+Jianshanopodia
+Magadictyon
+Kerygmachela
+Pambdelurion
+Opabinia
+Anomalocaris
+CCT
+Onychodictyon
+Peripatus
+Miraluolishania
+;
+end;
+
+begin characters;
+	dimensions nchar=31;
+	format 
+              datatype=STANDARD
+              missing=? gap=N
+              SYMBOLS="0 1 2 3 4 5";
+	matrix
+Cycloneuralia
+00N000000000000N0000N0010N00000
+Aysheaia
+01000000000000000011N0001010010
+Xenusion
+0100000000000000001100001010010
+Hadranax
+0100000000001000000000001010010
+Jianshanopodia
+011001000101110010000N001110010
+Magadictyon
+1110100001011110010000001110000
+Kerygmachela
+01001010111000000000000N1110011
+Pambdelurion
+011010101110110000000N001110011
+Opabinia
+1110101011010101000011001110000
+Anomalocaris
+1111101111111101000011110111001
+CCT
+N1111N0111111101000111121111000
+Onychodictyon
+00NN00000000000001010N001000110
+Peripatus
+00201000000000000001100010N0100
+Miraluolishania
+00101000000000000011100011N0110
+;
+end;
+
+
+
+
+
+
+
+
+
+

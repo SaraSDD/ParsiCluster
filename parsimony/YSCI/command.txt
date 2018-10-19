@@ -1,0 +1,38 @@
+开始日志：File-Log Output To Disk
+
+
+管理数据        cstatus
+
+
+定义最佳标准    set criterion=parsimony;
+
+
+设置外围群      outgroup Tubiluchus_priapulida;
+
+
+设有根树        set root=outgroup;
+
+
+定义查找策略    hsearch addseq=random;
+
+
+显示树          showtrees;
+
+
+描述树          describetrees 1/plot=phylogram brlens=yes;
+
+
+保存树          savetrees file=mp.tre;
+
+
+一致树          ConTree All/Strict=No MajRule=Yes TreeFile=MajorityConTree.tre;
+
+
+
+结束日志：File-Log Output To Disk
+
+
+清除记忆中的树：clear
+
+每次运行完后，一定要清除记忆。
+

@@ -1,0 +1,55 @@
+#NEXUS
+
+begin data;
+dimensions ntax=18 nchar=58;
+format datatype = standard gap = - missing =?;
+matrix
+
+Tubiluchus_priapulida   00-------------0-001-00---------10------------------------
+Aysheaia   10--000000-10-100001100-----1---100--10000104------0---11-
+Onychodictyon_ferox   10--000000-1110000011111010110-0100--11-00101------0---11-
+Paucipodia   10--000000-0---00001101100-010-0000--0--00101------0---0--
+Microdictyon   10--000000-0---10001111100-110-0000--0--00101------0---0--
+Hallucigenia_sparsa   10--001000-0---10000--1111011000-00--0--00101------0---0--
+Collinsia_ciliosa   110-000000-0---10001111111114011100--10100100------11--0--
+Kerygmachela   10--000001010-100001111100-030-01010-0--000--1010000--0100
+Opabinia   10--000011010-111000--0----------110-0--000--1000000--1101
+Anonalocaris   11010000110110111010--0----------110-0--000--1001110--1101
+Peytoia   11010000110110111000--0----------110-0--000--1001110--00--
+Hurdia   11010000110110111000--0----------110-0--000--1001010--0101
+Fuxianhuia   11011213111----211-0--------------110----00--0-------1-101
+Chengjiangocaris   11011213111----211-0--------------110----00--0-------1-101
+Leanchoilia   11101312111----211-0--------------111----01000-------0-0--
+Alalcomenaeus   11101312111----211-0--------------111----01000-------0-0--
+Misszhouia_longicaudata   11111212111----211-0--------------121----01000-------0-0--
+Kuamaia_lata   11111212111----211-0--------------121----01020-------0-0--
+
+;
+end;
+
+BEGIN LABELS;
+null
+END;
+
+BEGIN SETS;
+
+
+	CHARPARTITION * matrices = 'Matrix in file "YSCI.nex"' : 1-58 ;
+	charset 'Matrix in file "YSCI.nex"' = 1-58;
+END;
+
+begin mrbayes;
+	charset Character_Matrix = 1-58;
+	partition matrices = 1: Character_Matrix;
+	set partition = matrices;
+	lset  coding = variable rates = gamma;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	mcmcp ngen= 10000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=4 savebrlens=yes;
+	mcmc;
+	sump;
+	sumt;
+
+end;

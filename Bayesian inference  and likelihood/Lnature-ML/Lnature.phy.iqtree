@@ -1,0 +1,171 @@
+IQ-TREE 1.6.1 built Dec 26 2017
+
+Input file name: Lnature.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 50928
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 18 sequences with 38 morphological sites
+Number of constant sites: 1 (= 2.63158% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1 (= 2.63158% of all sites)
+Number of parsimony informative sites: 32
+Number of distinct site patterns: 38
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MK+FQ
+
+Rate parameter R:
+
+  0-1: 1.0000
+  0-2: 1.0000
+  1-2: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  0        -1       0.5       0.5
+  1       0.5        -1       0.5
+  2       0.5       0.5        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -295.0732 (s.e. 16.6098)
+Unconstrained log-likelihood (without tree): -138.2283
+Number of free parameters (#branches + #model parameters): 33
+Akaike information criterion (AIC) score: 656.1465
+Corrected Akaike information criterion (AICc) score: 1217.1465
+Bayesian information criterion (BIC) score: 710.1868
+
+Total tree length (sum of branch lengths): 2.5509
+Sum of internal branch lengths: 1.6180 (63.4277% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0263) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Cycloneuralia' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Cycloneuralia
+|
+|           +--Paucipodia
+|        +**| (28)
+|        |  |       +**Hallucigenia
+|        |  |    +--| (44)
+|        |  |    |  |  +---O-ychodictyon
+|        |  |    |  +--| (43)
+|        |  |    |     |     +--Miraluolishania
+|        |  |    |     |  +**| (62)
+|        |  |    |     |  |  +----Onychophora
+|        |  |    |     +--| (67)
+|        |  |    |        |                                       +--Anomalocaris
+|        |  |    |        |                                    +--| (36)
+|        |  |    |        |                                    |  +--Laggania
+|        |  |    |        |                          +---------| (94)
+|        |  |    |        |                          |         +**Hurdia
+|        |  |    |        |                   +------| (84)
+|        |  |    |        |                   |      +**Schinderhannes
+|        |  |    |        |                +--| (59)
+|        |  |    |        |                |  +**Fuxianhuia
+|        |  |    |        |             +--| (93)
+|        |  |    |        |             |  +--Leanchoilia
+|        |  |    |        +-------------| (100)
+|        |  |    |                      +**Euarthropoda
+|        |  +----| (83)
+|        |       +**Cardiodictyon
+|     +--| (53)
+|     |  +**Microdictyon
+|  +--| (44)
+|  |  +--Diania
++--| (83)
+|  +-------Tardigrada
+|
++--Aysheaia
+
+Tree in newick format:
+
+(Cycloneuralia:0.0526970296,((((Paucipodia:0.0341953494,((Hallucigenia:0.0000022504,(O-ychodictyon:0.1219131463,((Miraluolishania:0.0455822631,Onychophora:0.1634947197)62:0.0203835693,((((((Anomalocaris:0.0352772464,Laggania:0.0759378196)36:0.0759358177,Hurdia:0.0000026387)94:0.2966983341,Schinderhannes:0.0152686686)84:0.1961904644,Fuxianhuia:0.0000024245)59:0.0660986620,Leanchoilia:0.0307235443)93:0.0770782281,Euarthropoda:0.0000023271)100:0.4028325521)67:0.0868783774)43:0.0539642973)44:0.0322549230,Cardiodictyon:0.0000020211)83:0.1409685664)28:0.0000023109,Microdictyon:0.0000020260)53:0.0429709163,Diania:0.0576810574)44:0.0637309994,Tardigrada:0.2339654882)83:0.0620131596,Aysheaia:0.0661856913);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -300.941690
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with bootstrap support >50.000000% are kept (majority-rule consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Cycloneuralia
+|
+|        +--Paucipodia
+|     +--| (56)
+|     |  +--Microdictyon
+|  +--| (53)
+|  |  |    +--Hallucigenia
+|  |  +----| (83)
+|  |       +--Cardiodictyon
+|  |       |
+|  |       +-------O-ychodictyon
+|  |       |
+|  |       |       +--Miraluolishania
+|  |       |    +--| (62)
+|  |       |    |  +---Onychophora
+|  |       +----| (67)
+|  |            |                                      +--Anomalocaris
+|  |            |                           +----------| (94)
+|  |            |                           |          +---Laggania
+|  |            |                           |          |
+|  |            |                           |          +---Hurdia
+|  |            |                    +------| (84)
+|  |            |                    |      +--Schinderhannes
+|  |            |                 +--| (59)
+|  |            |                 |  +--Fuxianhuia
+|  |            |              +--| (93)
+|  |            |              |  +--Leanchoilia
+|  |            +--------------| (100)
+|  |                           +--Euarthropoda
++--| (83)
+|  +--Diania
+|  |
+|  +----------Tardigrada
+|
++--Aysheaia
+
+
+Consensus tree in newick format: 
+
+(Cycloneuralia:0.0498450541,(((Paucipodia:0.0341950372,Microdictyon:0.0000025259)56:0.0000025259,(Hallucigenia:0.0310113181,Cardiodictyon:0.0000025259,O-ychodictyon:0.2201588511,((Miraluolishania:0.1016477219,Onychophora:0.1060685109)62:0.0075276070,(((((Anomalocaris:0.0000025259,Laggania:0.1124131239,Hurdia:0.1124129592)94:0.2962450808,Schinderhannes:0.0154233387)84:0.1960531289,Fuxianhuia:0.0000025259)59:0.0661004330,Leanchoilia:0.0307214953)93:0.0771547481,Euarthropoda:0.0000025259)100:0.4172503463)67:0.1374255160)83:0.1410948095)53:0.0473893836,Diania:0.0566372568,Tardigrada:0.2950178010)83:0.0995538006,Aysheaia:0.0996452570);
+
+TIME STAMP
+----------
+
+Date and time: Sat May 19 22:25:43 2018
+Total CPU time used: 3.484375 seconds (0h:0m:3s)
+Total wall-clock time used: 4.564623531 seconds (0h:0m:4s)
+

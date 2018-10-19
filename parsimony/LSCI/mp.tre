@@ -1,0 +1,56 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Jan 26 17:48:10 2018]
+[!
+>Data file = C:\Users\Administrator\Desktop\2018Äê1ÔÂ26\LSCI\LSCI.nex
+>Heuristic search settings:
+>   Optimality criterion = maximum parsimony
+>      Character-status summary:
+>        Of 31 total characters:
+>          All characters are of type 'unord'
+>          All characters have equal weight
+>          3 characters are parsimony-uninformative
+>          Number of parsimony-informative characters = 28
+>      Gaps are treated as "missing"
+>   Starting tree(s) obtained via stepwise addition
+>   Addition sequence: random
+>      Number of replicates = 10
+>      Starting seed = 933200422
+>   Number of trees held at each step during stepwise addition = 1
+>   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>   Steepest descent option not in effect
+>   Initial 'MaxTrees' setting = 100
+>   Branches collapsed (creating polytomies) if maximum branch length is zero
+>   'MulTrees' option in effect
+>   Topological constraints not enforced
+>   Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 12958
+>   Score of best tree(s) found = 55
+>   Number of trees retained = 6
+>   Time used = 0.02 sec
+]
+	Translate
+		1 Cycloneuralia,
+		2 Aysheaia,
+		3 Xenusion,
+		4 Hadranax,
+		5 Jianshanopodia,
+		6 Magadictyon,
+		7 Kerygmachela,
+		8 Pambdelurion,
+		9 Opabinia,
+		10 Anomalocaris,
+		11 CCT,
+		12 Onychodictyon,
+		13 Peripatus,
+		14 Miraluolishania
+		;
+tree PAUP_1 = [&U] (1,((((2,3),4),(7,8)),((5,6),(9,(10,11)))),(12,(13,14)));
+tree PAUP_2 = [&U] (1,(((2,3),(4,(5,(6,((7,8),(9,(10,11))))))),(12,(13,14))));
+tree PAUP_3 = [&U] (1,((((2,3),4),(5,((6,(9,(10,11))),(7,8)))),(12,(13,14))));
+tree PAUP_4 = [&U] (1,((((2,3),4),((5,(6,(9,(10,11)))),(7,8))),(12,(13,14))));
+tree PAUP_5 = [&U] (1,(((2,3),(4,(5,((6,(9,(10,11))),(7,8))))),(12,(13,14))));
+tree PAUP_6 = [&U] (1,((((2,3),4),(5,(6,((7,8),(9,(10,11)))))),(12,(13,14))));
+End;

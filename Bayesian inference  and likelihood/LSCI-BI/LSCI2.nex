@@ -1,0 +1,51 @@
+#NEXUS
+
+begin data;
+dimensions ntax=14 nchar=31;
+format datatype = standard gap = - missing =?;
+matrix
+
+Cycloneuralia   00-000000000000-0000-0010-00000
+Aysheaia   01000000000000000011-0001010010
+Xenusion   0100000000000000001100001010010
+Hadranax   0100000000001000000000001010010
+Jianshanopodia   011001000101110010000-001110010
+Magadictyon   1110100001011110010000001110000
+Kerygmachela   01001010111000000000000-1110011
+Pambdelurion   011010101110110000000-001110011
+Opabinia   1110101011010101000011001110000
+Anomalocaris   1111101111111101000011110111001
+CCT   -1111-0111111101000111121111000
+Onychodictyon   00--00000000000001010-001000110
+Peripatus   00201000000000000001100010-0100
+Miraluolishania   00101000000000000011100011-0110
+
+;
+end;
+
+BEGIN LABELS;
+null
+END;
+
+BEGIN SETS;
+
+
+	CHARPARTITION * matrices = 'Matrix in file "LSCI.nex"' : 1-31 ;
+	charset 'Matrix in file "LSCI.nex"' = 1-31;
+END;
+
+begin mrbayes;
+	charset Character_Matrix = 1-31;
+	partition matrices = 1: Character_Matrix;
+	set partition = matrices;
+	lset  coding = variable rates = gamma;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	mcmcp ngen= 10000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=4 savebrlens=yes;
+	mcmc;
+	sump;
+	sumt;
+
+end;

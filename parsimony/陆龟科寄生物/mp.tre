@@ -1,0 +1,56 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Jan 29 18:57:04 2018]
+[!
+>Data file = C:\Users\Administrator\Desktop\新建文件夹 (2)\gshw.nex
+>Heuristic search settings:
+>   Optimality criterion = maximum parsimony
+>      Character-status summary:
+>        Of 37 total characters:
+>          All characters are of type 'unord'
+>          All characters have equal weight
+>          5 characters are parsimony-uninformative
+>          Number of parsimony-informative characters = 32
+>      Gaps are treated as "missing"
+>   Starting tree(s) obtained via stepwise addition
+>   Addition sequence: random
+>      Number of replicates = 10
+>      Starting seed = 1716221260
+>   Number of trees held at each step during stepwise addition = 1
+>   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>   Steepest descent option not in effect
+>   Initial 'MaxTrees' setting = 100
+>   Branches collapsed (creating polytomies) if maximum branch length is zero
+>   'MulTrees' option in effect
+>   Topological constraints not enforced
+>   Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 40041
+>   Score of best tree(s) found = 80
+>   Number of trees retained = 2
+>   Time used = 0.03 sec
+]
+	Translate
+		1 Alaeuris,
+		2 Tachygonetria,
+		3 T.conica,
+		4 T.dentata,
+		5 T.khallaayounei,
+		6 T.longicollis,
+		7 T.marocana,
+		8 T.numidica,
+		9 T.palearcticus,
+		10 Thaparia_thapari,
+		11 Thap.Bourgati,
+		12 Thap.Carlosfeliui,
+		13 Mehdiella_microstoma,
+		14 M.petterae,
+		15 M.Stylosa,
+		16 M.Uncinata,
+		17 Angusticaecum,
+		18 Raillietnema
+		;
+tree PAUP_1 = [&U] (1,((((((2,4),(((3,9),6),(5,7))),8),(10,11,12)),(13,((14,15),16))),(17,18)));
+tree PAUP_2 = [&U] (1,((((((2,4),(((3,9),6),(5,7))),8),((10,12),11)),(13,((14,15),16))),(17,18)));
+End;

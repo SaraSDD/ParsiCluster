@@ -1,0 +1,212 @@
+
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Mon Dec 04 11:55:46 2017
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 38 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    6 characters are constant
+    6 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 26
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 10
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 38 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          6 characters are constant
+          6 variable characters are parsimony-uninformative
+          Number of parsimony-informative characters = 26
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 444614430
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 4177
+   Score of best tree(s) found = 65
+   Number of trees retained = 6
+   Time used = 0.02 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1         6         1         6           65            1      10
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------ Alcea rosea
+|
+|                       /------------------------------------ H.macrophyllusRo
+|                       |
+|                       |                       /------------ H.tiliaceusLinn.
++-----------------------+           /-----------+
+|                       |           |           \------------ H.hamaboSiebe.tZ
+|                       \-----------+
+|                                   \------------------------ H.ela tusSw
+|
+|                                               /------------ H.grewiifoliusHa
+|           /-----------------------------------+
+|           |                                   \------------ H.vidalia nusNav
+|           |
+\-----------+           /------------------------------------ H.schizopetalus
+            |           |
+            |           |                       /------------ H.rosa sinensisv
+            \-----------+           /-----------+
+                        |           |           \------------ H.rosa sinensisv
+                        \-----------+
+                                    \------------------------ H.moscheutosLinn
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 38 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       6 characters are constant
+       6 variable characters are parsimony-uninformative
+       Number of parsimony-informative characters = 26
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+    20                  19                  2             2             4
+H.macrophyllusRo (1)    20                  3             2             3
+    13                  20                  4             4             5
+    12                  13                  3             3             3
+H.tiliaceusLinn. (2)    12                  1             1             2
+H.hamaboSiebe.tZ (5)    12                  4             3             4
+H.ela tusSw (3)         13                  3             3             4
+    18                  19                  6             5             7
+    14                  18                  3             3             5
+H.grewiifoliusHa (4)    14                  2             1             3
+H.vidalia nusNav (9)    14                  3             2             4
+    17                  18                  3             1             5
+H.schizopetalus (6)     17                  4             4             5
+    16                  17                  2             1             2
+    15                  16                  3             3             3
+H.rosa sinensisv (7)    15                  2             2             2
+H.rosa sinensisv (8)    15                  3             3             3
+H.moscheutosLinn (10)   16                  3             3             3
+Alcea rosea (11)*       19                 11             8            11
+-------------------------------------------------------------------------
+Sum                                        65
+
+Tree length = 65
+Consistency index (CI) = 0.5846
+Homoplasy index (HI) = 0.4154
+CI excluding uninformative characters = 0.5345
+HI excluding uninformative characters = 0.4655
+Retention index (RI) = 0.6087
+Rescaled consistency index (RC) = 0.3559
+
+       /----------- H.macrophyllusRo
+       |
+       |                        /--- H.tiliaceusLinn.
+/-----20             /---------12
+|      |             |          \-------------- H.hamaboSiebe.tZ
+|      \------------13
+|                    \----------- H.ela tusSw
+|
+|                               /------- H.grewiifoliusHa
+|                    /---------14
+|                    |          \---------- H.vidalia nusNav
+|                    |
+19------------------18          /-------------- H.schizopetalus
+|                    |          |
+|                    |          |                /------- H.rosa sinensisv
+|                    \---------17      /--------15
+|                               |      |         \----------- H.rosa sinensisv
+|                               \-----16
+|                                      \---------- H.moscheutosLinn
+|
+\--------------------------------------- Alcea rosea
+
+6 trees saved to file "C:\Users\HP\Desktop\实验-2017-12-04\木槿\mp.tre"
+
+50% Majority-rule consensus of 6 trees
+
+/-------------------------------------------------------- Alcea rosea(11)
+|
++-------------------------------------------------------- H.macrophyllusRo(1)
+|
+|                                         /-------------- H.tiliaceusLinn.(2)
+|                           /-----100-----+
+|                           |             \-------------- H.hamaboSiebe.tZ(5)
++------------83-------------+
+|                           \---------------------------- H.ela tusSw(3)
+|
+|                                         /-------------- H.grewiifoliusHa(4)
+|             /------------67-------------+
+|             |                           \-------------- H.vidalia nusNav(9)
+|             |
+\-----100-----+             /---------------------------- H.schizopetalus(6)
+              |             |
+              |             |             /-------------- H.rosa sinensisv(7)
+              \-----67------+-----100-----+
+                            |             \-------------- H.rosa sinensisv(8)
+                            |
+                            \---------------------------- H.moscheutosLinn(10)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         11
+12345678901      Freq      %
+----------------------------
+.*..*......         6 100.0%
+...*.*****.         6 100.0%
+......**...         6 100.0%
+.**.*......         5  83.3%
+...*....*..         4  66.7%
+.....***.*.         4  66.7%
+...*.******         3  50.0%
+.....*...*.         3  50.0%
+.*********.         3  50.0%
+...*..***..         2  33.3%
+.....*****.         2  33.3%
+......**.*.         1  16.7%
+...*.****..         1  16.7%
+...*..****.         1  16.7%
+.*.*******.         1  16.7%
+
+Consensus tree(s) written to treefile: C:\Users\HP\Desktop\实验-2017-12-
+04\木槿\MajorityConTree.tre

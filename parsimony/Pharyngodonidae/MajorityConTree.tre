@@ -1,0 +1,36 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Dec 04 11:54:47 2017]
+[!
+>Consensus of 100 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>   Optimality criterion = maximum parsimony
+>      Character-status summary:
+>        Of 37 total characters:
+>          All characters are of type 'unord'
+>          All characters have equal weight
+>          6 characters are constant
+>          5 variable characters are parsimony-uninformative
+>          Number of parsimony-informative characters = 26
+>      Gaps are treated as "missing"
+>   Starting tree(s) obtained via stepwise addition
+>   Addition sequence: random
+>      Number of replicates = 10
+>      Starting seed = 423117436
+>   Number of trees held at each step during stepwise addition = 1
+>   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>   Steepest descent option not in effect
+>   Initial 'MaxTrees' setting = 100
+>   Branches collapsed (creating polytomies) if maximum branch length is zero
+>   'MulTrees' option in effect
+>   Topological constraints not enforced
+>   Trees are unrooted
+>
+>Search terminated prematurely (no room to store new trees)
+>   100 trees retained
+>   Time used = 2.59 sec
+]
+	tree MajRule = [&U] (Angusticaecum_holopterum,(Alaeuris_numidica,(((Tachygonetria_combesi,T.dentata),T.Vivipara),((T.conica,T.palearcticus),((T.longicollis,T.Setosa),T.Pusilla)),((T.khallaayounei,T.marocana),T.Settatensis),(T.numidica,T.poulini))),Raillietnema_bainae);
+end;

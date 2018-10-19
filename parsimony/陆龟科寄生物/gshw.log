@@ -1,0 +1,264 @@
+
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Mon Jan 29 18:56:25 2018
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 37 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    5 characters are parsimony-uninformative
+    Number of parsimony-informative characters = 32
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 17
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 37 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          5 characters are parsimony-uninformative
+          Number of parsimony-informative characters = 32
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 1716221260
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 40041
+   Score of best tree(s) found = 80
+   Number of trees retained = 2
+   Time used = 0.03 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1         2         1         2           80            1      10
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------ Raillietnema
+|
+|      /----------------------------------------------------- Alaeuris
+|      |
+|      |                                             /------- Tachygonetria
+|      |                         /-------------------+
+|      |                         |                   \------- T.dentata
+|      |                         |
+|      |                         |                   /------- T.conica
+|      |                   /-----+             /-----+
+|      |                   |     |             |     \------- T.palearcticus
+|      |                   |     |      /------+
+|      |                   |     |      |      \------------- T.longicollis
++------+                   |     \------+
+|      |            /------+            |            /------- T.khallaayounei
+|      |            |      |            \------------+
+|      |            |      |                         \------- T.marocana
+|      |            |      |
+|      |     /------+      \--------------------------------- T.numidica
+|      |     |      |
+|      |     |      |                                /------- Thaparia thapari
+|      |     |      |                                |
+|      |     |      \--------------------------------+------- Thap.Bourgati
+|      |     |                                       |
+|      \-----+                                       \------- Thap.Carlosfeliu
+|            |
+|            |                          /-------------------- Mehdiella micros
+|            |                          |
+|            |                          |            /------- M.petterae
+|            \--------------------------+      /-----+
+|                                       |      |     \------- M.Stylosa
+|                                       \------+
+|                                              \------------- M.Uncinata
+|
+\------------------------------------------------------------ Angusticaecum
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 37 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       5 characters are parsimony-uninformative
+       Number of parsimony-informative characters = 32
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+    33                  32                 10             8            10
+Alaeuris (1)            33                  6             4             6
+    31                  33                  4             2             6
+    27                  31                  5             4             7
+    25                  27                  3             3             4
+    24                  25                  2             2             2
+    19                  24                  2             2             2
+Tachygonetria (2)       19                  1             1             1
+T.dentata (4)           19                  0             0             0
+    23                  24                  1             1             1
+    21                  23                  3             1             3
+    20                  21                  3             3             4
+T.conica (3)            20                  1             1             2
+T.palearcticus (9)      20                  2             1             2
+T.longicollis (6)       21                  2             1             3
+    22                  23                  2             2             2
+T.khallaayounei (5)     22                  2             2             2
+T.marocana (7)          22                  0             0             0
+T.numidica (8)          25                  1             1             1
+    26                  27                  6             5             6
+Thaparia thapari (10)   26                  0             0             0
+Thap.Bourgati (11)      26                  1             1             1
+Thap.Carlosfeliu (12)   26                  0             0             0
+    30                  31                  5             2             5
+Mehdiella micros (13)   30                  5             5             6
+    29                  30                  2             2             2
+    28                  29                  6             5             6
+M.petterae (14)         28                  1             1             1
+M.Stylosa (15)          28                  0             0             0
+M.Uncinata (16)         29                  2             2             3
+Angusticaecum (17)      32                  1             1             1
+Raillietnema (18)*      32                  1             1             1
+-------------------------------------------------------------------------
+Sum                                        80
+
+Tree length = 80
+Consistency index (CI) = 0.7250
+Homoplasy index (HI) = 0.2750
+CI excluding uninformative characters = 0.7067
+HI excluding uninformative characters = 0.2933
+Retention index (RI) = 0.8197
+Rescaled consistency index (RC) = 0.5943
+
+                  /----------- Alaeuris
+                  |
+                  |                            /-- Tachygonetria
+                  |                         /-19
+                  |                         |  \ T.dentata
+                  |                         |
+                  |                         |           /-- T.conica
+                  |                     /--24      /---20
+                  |                     |   |      |    \---- T.palearcticus
+                  |                     |   |/----21
+                  |                     |   ||     \---- T.longicollis
+/----------------33                     |   23
+|                 |                /---25    |   /---- T.khallaayounei
+|                 |                |    |    \--22
+|                 |                |    |        \ T.marocana
+|                 |                |    |
+|                 |      /--------27    \-- T.numidica
+|                 |      |         |
+|                 |      |         |         / Thaparia thapari
+|                 |      |         |         |
+|                 |      |         \--------26-- Thap.Bourgati
+|                 |      |                   |
+|                 \-----31                   \ Thap.Carlosfeliu
+32                       |
+|                        |         /--------- Mehdiella micros
+|                        |         |
+|                        |         |             /-- M.petterae
+|                        \--------30  /---------28
+|                                  |  |          \ M.Stylosa
+|                                  \-29
+|                                     \---- M.Uncinata
+|
++-- Angusticaecum
+|
+\-- Raillietnema
+
+2 trees saved to file "C:\Users\Administrator\Desktop\新建文件夹 (2)\mp.tre"
+
+50% Majority-rule consensus of 2 trees
+
+/-------------------------------------------------------- Raillietnema(18)
+|
+|     /-------------------------------------------------- Alaeuris(1)
+|     |
+|     |                                           /------ Tachygonetria(2)
+|     |                        /-------100--------+
+|     |                        |                  \------ T.dentata(4)
+|     |                        |
+|     |                        |                  /------ T.conica(3)
+|     |                  /-100-+            /-100-+
+|     |                  |     |            |     \------ T.palearcticus(9)
+|     |                  |     |     /-100--+
+|     |                  |     |     |      \------------ T.longicollis(6)
++-100-+                  |     \-100-+
+|     |            /-100-+           |            /------ T.khallaayounei(5)
+|     |            |     |           \----100-----+
+|     |            |     |                        \------ T.marocana(7)
+|     |            |     |
+|     |     /-100--+     \------------------------------- T.numidica(8)
+|     |     |      |
+|     |     |      |                              /------ Thaparia thapari(10)
+|     |     |      |                              |
+|     |     |      \-------------100--------------+------ Thap.Bourgati(11)
+|     |     |                                     |
+|     \-100-+                                     \------ Thap.Carlosfeliu(12)
+|           |
+|           |                        /------------------- Mehdiella micros(13)
+|           |                        |
+|           |                        |            /------ M.petterae(14)
+|           \----------100-----------+      /-100-+
+|                                    |      |     \------ M.Stylosa(15)
+|                                    \-100--+
+|                                           \------------ M.Uncinata(16)
+|
+\-------------------------------------------------------- Angusticaecum(17)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1       1
+123456789012345678      Freq      %
+-----------------------------------
+.***************..         2 100.0%
+.***********......         2 100.0%
+.********.........         2 100.0%
+.******.*.........         2 100.0%
+.*.*..............         2 100.0%
+..*.***.*.........         2 100.0%
+..*..*..*.........         2 100.0%
+..*.....*.........         2 100.0%
+....*.*...........         2 100.0%
+.........***......         2 100.0%
+............****..         2 100.0%
+.............***..         2 100.0%
+.............**...         2 100.0%
+................**         2 100.0%
+.........*.*......         1  50.0%
+
+Consensus tree(s) written to treefile:
+C:\Users\Administrator\Desktop\新建文件夹 (2)\MajorityConTree.tre

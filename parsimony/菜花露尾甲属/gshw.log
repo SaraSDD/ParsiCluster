@@ -1,0 +1,259 @@
+
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Mon Dec 04 11:52:55 2017
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 60 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    1 character is constant
+    11 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 48
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 60 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    1 character is constant
+    11 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 48
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 13
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 60 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          1 character is constant
+          11 variable characters are parsimony-uninformative
+          Number of parsimony-informative characters = 48
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 569331348
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 27757
+   Score of best tree(s) found = 174
+   Number of trees retained = 11
+   Time used = 0.02 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1        10         1        10          174            1       9
+     2         1        11        11          174           10       1
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------ PriatokarensisNa
+|
+|                   /---------------------------------------- M.aeneus
+|                   |
+|                   |         /------------------------------ M.matronalisAudi
+|         /---------+         |
+|         |         |         |                   /---------- M.difficilis
+|         |         \---------+         /---------+
+|         |                   |         |         \---------- M.viridescens
+|         |                   \---------+
+|         |                             \-------------------- M.coracinusErich
+|         |
++---------+                                       /---------- M.simillimusKire
+|         |                             /---------+
+|         |                             |         \---------- M.chlorocupreusA
+|         |         /-------------------+
+|         |         |                   \-------------------- M.circularisSahl
+|         |         |
+|         \---------+         /------------------------------ M.sulcatusBrisou
+|                   |         |
+|                   \---------+         /-------------------- M.affinisJelinek
+|                             |         |
+|                             \---------+         /---------- M.polyedricussp.
+|                                       \---------+
+|                                                 \---------- M.subrugosusGyll
+|
+\------------------------------------------------------------ EpuraealongulaEr
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 60 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       1 character is constant
+       11 variable characters are parsimony-uninformative
+       Number of parsimony-informative characters = 48
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+    25                  24                 15            12            15
+    26                  25                  3             2             7
+M.aeneus (1)            26                  5             3             6
+    17                  26                  3             2             5
+M.matronalisAudi (2)    17                  0             0             1
+    16                  17                  6             3             6
+    15                  16                  4             3             5
+M.difficilis (3)        15                  5             1             6
+M.viridescens (5)       15                  8             7            12
+M.coracinusErich (4)    16                  6             5             9
+    23                  25                 10             5            11
+    19                  23                  3             2             6
+    18                  19                  5             5             6
+M.simillimusKire (6)    18                  7             6             7
+M.chlorocupreusA (10)   18                  6             6             7
+M.circularisSahl (7)    19                  5             4             6
+    22                  23                  5             4             6
+M.sulcatusBrisou (8)    22                  5             3             7
+    21                  22                  4             1             6
+M.affinisJelinek (9)    21                  9             8            13
+    20                  21                  8             6             9
+M.polyedricussp. (11)   20                 11             9            13
+M.subrugosusGyll (12)   20                 14            12            16
+PriatokarensisNa (13)*  24                  2             2             8
+EpuraealongulaEr (14)   24                 25            19            25
+-------------------------------------------------------------------------
+Sum                                       174
+
+Tree length = 174
+Consistency index (CI) = 0.5000
+Homoplasy index (HI) = 0.5000
+CI excluding uninformative characters = 0.4630
+HI excluding uninformative characters = 0.5370
+Retention index (RI) = 0.4759
+Rescaled consistency index (RC) = 0.2380
+
+                   /------ M.aeneus
+                   |
+                   |   / M.matronalisAudi
+                /-26   |
+                |  |   |         /------ M.difficilis
+                |  \--17     /--15
+                |      |     |   \--------- M.viridescens
+                |      \----16
+                |            \------ M.coracinusErich
+                |
+/--------------25                  /-------- M.simillimusKire
+|               |             /---18
+|               |             |    \------- M.chlorocupreusA
+|               |          /-19
+|               |          |  \----- M.circularisSahl
+|               |          |
+|               \---------23    /------ M.sulcatusBrisou
+|                          |    |
+24                         \---22   /---------- M.affinisJelinek
+|                               |   |
+|                               \--21        /------------ M.polyedricussp.
+|                                   \-------20
+|                                            \--------------- M.subrugosusGyll
+|
++-- PriatokarensisNa
+|
+\--------------------------- EpuraealongulaEr
+
+11 trees saved to file "C:\Users\HP\Desktop\ÊµÑé-2017-12-
+04\²Ë»¨Â¶Î²¼×Êô\mp.tre"
+
+50% Majority-rule consensus of 11 trees
+
+/-------------------------------------------------------- PriatokarensisNa(13)
+|
+|                  /------------------------------------- M.aeneus(1)
+|                  |
+|        /---91----+        /---------------------------- M.matronalisAudi(2)
+|        |         |        |
+|        |         \---55---+        /------------------- M.difficilis(3)
+|        |                  |        |
+|        |                  \---73---+         /--------- M.coracinusErich(4)
+|        |                           \---55----+
+|        |                                     \--------- M.viridescens(5)
++--100---+
+|        |                                     /--------- M.simillimusKire(6)
+|        |                           /---91----+
+|        |                           |         \--------- M.chlorocupreusA(10)
+|        |                  /---91---+
+|        |                  |        \------------------- M.circularisSahl(7)
+|        |                  |
+|        \-------100--------+        /------------------- M.sulcatusBrisou(8)
+|                           |        |
+|                           |        +------------------- M.affinisJelinek(9)
+|                           \---73---+
+|                                    |         /--------- M.polyedricussp.(11)
+|                                    \---100---+
+|                                              \--------- M.subrugosusGyll(12)
+|
+\-------------------------------------------------------- EpuraealongulaEr(14)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1   1
+12345678901234      Freq      %
+-------------------------------
+.....*******..        11 100.0%
+..........**..        11 100.0%
+............**        11 100.0%
+.....*********        10  90.9%
+.....**..*....        10  90.9%
+.....*...*....        10  90.9%
+.......**.**..         8  72.7%
+..***.........         8  72.7%
+.****.........         6  54.5%
+...**.........         6  54.5%
+.......*..**..         5  45.5%
+........*.**..         4  36.4%
+..*.*.........         4  36.4%
+.*...*********         2  18.2%
+.*.*.*********         2  18.2%
+.*.*..........         2  18.2%
+.....***.***..         2  18.2%
+.....***.*....         1   9.1%
+.....**.**....         1   9.1%
+......*..*....         1   9.1%
+.***********..         1   9.1%
+..**********..         1   9.1%
+..*.********..         1   9.1%
+....********..         1   9.1%
+......**..**..         1   9.1%
+......*...**..         1   9.1%
+
+Consensus tree(s) written to treefile: C:\Users\HP\Desktop\ÊµÑé-2017-12-
+04\²Ë»¨Â¶Î²¼×Êô\MajorityConTree.tre

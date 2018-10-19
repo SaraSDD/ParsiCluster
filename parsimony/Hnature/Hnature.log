@@ -1,0 +1,263 @@
+
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Fri Jan 26 16:44:07 2018
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 41 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    8 characters are constant
+    4 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 29
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 15
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 41 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          8 characters are constant
+          4 variable characters are parsimony-uninformative
+          Number of parsimony-informative characters = 29
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 557359038
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 73104
+   Score of best tree(s) found = 54
+   Number of trees retained = 42
+   Time used = 0.03 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1        42         1        42           54            1      10
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------- Cnidaria
+|
+|                                                   /--------- Arthropoda
+|                                           /-------+
+|                                           |       \--------- Onychophora
+|                                  /--------+
+|                                  |        |       /--------- Kinorhyncha
+|                                  |        \-------+
+|                         /--------+                \--------- Priapulida
+|                         |        |
+|                         |        |                /--------- Mollusca
+|                         |        \----------------+
+|                         |                         \--------- Annelida
+|                /--------+
+|                |        |                         /--------- Vetulicola
+|                |        |                 /-------+
+|                |        |                 |       \--------- Beidazoon
+|                |        \-----------------+
+|                |                          |       /--------- Pomatrum
+|        /-------+                          \-------+
+|        |       |                                  \--------- Xidazoon
+|        |       |
+|        |       |                          /----------------- Urochordata
+|        |       |                          |
++--------+       \--------------------------+       /--------- Cephalochordata
+|        |                                  \-------+
+|        |                                          \--------- Vertebrata
+|        |
+|        \---------------------------------------------------- Enteropneusta
+|
+\------------------------------------------------------------- Echinodermata
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 41 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       8 characters are constant
+       4 variable characters are parsimony-uninformative
+       Number of parsimony-informative characters = 29
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+Cnidaria (1)*           30                  3             3             6
+    29                  30                  6             2             6
+    28                  29                  2             2             4
+    25                  28                  3             1             5
+    21                  25                  7             5             8
+    19                  21                  4             3             6
+    17                  19                  1             1             2
+Arthropoda (2)          17                  2             1             3
+Onychophora (3)         17                  1             0             2
+    18                  19                  4             3             6
+Kinorhyncha (4)         18                  0             0             0
+Priapulida (5)          18                  1             1             1
+    20                  21                  2             1             3
+Mollusca (6)            20                  1             0             1
+Annelida (7)            20                  0             0             1
+    24                  25                  3             1             7
+    22                  24                  2             1             2
+Vetulicola (13)         22                  0             0             0
+Beidazoon (14)          22                  0             0             0
+    23                  24                  2             2             3
+Pomatrum (15)           23                  0             0             0
+Xidazoon (16)           23                  0             0             0
+    27                  28                  2             2             2
+Urochordata (10)        27                  2             2             2
+    26                  27                  1             1             1
+Cephalochordata (11)    26                  0             0             0
+Vertebrata (12)         26                  4             4             4
+Enteropneusta (9)       29                  0             0             0
+Echinodermata (8)       30                  1             1             2
+-------------------------------------------------------------------------
+Sum                                        54
+
+Tree length = 54
+Consistency index (CI) = 0.6667
+Homoplasy index (HI) = 0.3333
+CI excluding uninformative characters = 0.6400
+HI excluding uninformative characters = 0.3600
+Retention index (RI) = 0.8043
+Rescaled consistency index (RC) = 0.5362
+
+/------- Cnidaria
+|
+|                                                   /---- Arthropoda
+|                                                 /17
+|                                                 | \-- Onychophora
+|                                        /-------19
+|                                        |        |        / Kinorhyncha
+|                                        |        \-------18
+|                        /--------------21                 \-- Priapulida
+|                        |               |
+|                        |               |   /-- Mollusca
+|                        |               \--20
+|                        |                   \ Annelida
+|                 /-----25
+|                 |      |          / Vetulicola
+30                |      |      /--22
+|                 |      |      |   \ Beidazoon
+|                 |      \-----24
+|                 |             |   / Pomatrum
+|             /--28             \--23
+|             |   |                 \ Xidazoon
+|             |   |
+|             |   |    /---- Urochordata
+|             |   |    |
++------------29   \---27 / Cephalochordata
+|             |        \26
+|             |          \--------- Vertebrata
+|             |
+|             \ Enteropneusta
+|
+\-- Echinodermata
+
+42 trees saved to file
+"C:\Users\Administrator\Desktop\2018年1月26\Hnature\mp.tre"
+
+50% Majority-rule consensus of 42 trees
+
+/--------------------------------------------------------- Cnidaria(1)
+|
+|                           /----------------------------- Arthropoda(2)
+|                           |
+|                           +----------------------------- Onychophora(3)
+|             /-----100-----+
+|             |             |              /-------------- Kinorhyncha(4)
+|             |             \-----100------+
+|             |                            \-------------- Priapulida(5)
++-----100-----+
+|             +------------------------------------------- Mollusca(6)
+|             |
+|             \------------------------------------------- Annelida(7)
+|
++--------------------------------------------------------- Echinodermata(8)
+|
+|             /------------------------------------------- Enteropneusta(9)
+|             |
+|             |             /----------------------------- Urochordata(10)
+|             |             |
+|             +-----71------+              /-------------- Cephalochordata(11)
+|             |             \-----100------+
+\-----57------+                            \-------------- Vertebrata(12)
+              |
+              |                            /-------------- Vetulicola(13)
+              |             /-----100------+
+              |             |              \-------------- Beidazoon(14)
+              \-----100-----+
+                            |              /-------------- Pomatrum(15)
+                            \-----100------+
+                                           \-------------- Xidazoon(16)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1     1
+1234567890123456      Freq      %
+---------------------------------
+.****...........        42 100.0%
+............**..        42 100.0%
+...**...........        42 100.0%
+.******.........        42 100.0%
+............****        42 100.0%
+..............**        42 100.0%
+..........**....        42 100.0%
+.........***....        30  71.4%
+........********        24  57.1%
+.****.*.........        21  50.0%
+.....**.........        21  50.0%
+.........*******        18  42.9%
+.*******........        18  42.9%
+.******.********        18  42.9%
+.*.**...........        14  33.3%
+..***...........        14  33.3%
+.**.............        14  33.3%
+.********...****        12  28.6%
+.********.******        12  28.6%
+.******..*******         6  14.3%
+.******.....****         6  14.3%
+.......*********         6  14.3%
+........****....         6  14.3%
+.********.......         6  14.3%
+.*******....****         6  14.3%
+
+Consensus tree(s) written to treefile:
+C:\Users\Administrator\Desktop\2018年1月26\Hnature\MajorityConTree.tre

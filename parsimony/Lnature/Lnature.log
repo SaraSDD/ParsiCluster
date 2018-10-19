@@ -1,0 +1,281 @@
+
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Fri Jan 26 17:57:32 2018
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 38 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    1 character is constant
+    5 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 32
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 17
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 38 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          1 character is constant
+          5 variable characters are parsimony-uninformative
+          Number of parsimony-informative characters = 32
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 1308772190
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+     'MaxTrees' limit (100) hit while swapping on tree #26 (score=68)
+
+Heuristic search completed
+   Total number of rearrangements tried = 127773
+   Score of best tree(s) found = 67
+   Number of trees retained = 15
+   Note: Effectiveness of search may have been diminished due to tree-buffer
+         overflow.
+   Time used = 1.39 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1         3         1         3           67            1       4
+     2        12         4        15           67            2       6
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------- Cycloneuralia
+|
+|                 /------------------------------------------- Paucipodia
+|                 |
+|                 +------------------------------------------- Microdictyon
+|                 |
+|                 |                                    /------ Hallucigenia
+|                 |                              /-----+
+|           /-----+                              |     \------ Onychodictyon
+|           |     |     /------------------------+
+|           |     |     |                        \------------ Cardiodictyon
+|           |     |     |
+|           |     |     |                              /------ Miraluolishania
+|           |     |     |     /------------------------+
+|           |     \-----+     |                        \------ Onychophora
+|           |           |     |
+|           |           |     |                        /------ Anomalocaris
+|           |           |     |                  /-----+
+|           |           \-----+                  |     \------ Hurdia
+|     /-----+                 |      /-----------+
+|     |     |                 |      |           \------------ Laggania
+|     |     |                 |      |
+|     |     |                 |      |                 /------ Schinderhannes
+|     |     |                 \------+           /-----+
+|     |     |                        |           |     \------ Fuxianhuia
+|     |     |                        |     /-----+
++-----+     |                        |     |     \------------ Leanchoilia
+|     |     |                        \-----+
+|     |     |                              \------------------ Euarthropoda
+|     |     |
+|     |     \------------------------------------------------- Diania
+|     |
+|     \------------------------------------------------------- Tardigrada
+|
+\------------------------------------------------------------- Aysheaia
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 38 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       1 character is constant
+       5 variable characters are parsimony-uninformative
+       Number of parsimony-informative characters = 32
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+Cycloneuralia (1)*      33                  1             1             1
+    32                  33                  4             1             5
+    31                  32                  2             2             4
+    30                  31                  2             1             4
+Paucipodia (2)          30                  1             1             1
+Microdictyon (3)        30                  0             0             0
+    29                  30                  3             3             5
+    20                  29                  1             1             1
+    19                  20                  1             1             1
+Hallucigenia (4)        19                  0             0             0
+Onychodictyon (6)       19                  5             5             5
+Cardiodictyon (5)       20                  0             0             0
+    28                  29                  1             1             3
+    21                  28                  2             2             2
+Miraluolishania (7)     21                  3             3             3
+Onychophora (16)        21                  3             3             3
+    27                  28                  7             5             9
+    23                  27                  4             4             5
+    22                  23                  1             1             1
+Anomalocaris (10)       22                  1             1             1
+Hurdia (12)             22                  2             2             2
+Laggania (11)           23                  1             1             1
+    26                  27                  3             2             4
+    25                  26                  1             1             3
+    24                  25                  2             2             2
+Schinderhannes (13)     24                  5             4             5
+Fuxianhuia (14)         24                  1             1             2
+Leanchoilia (15)        25                  0             0             1
+Euarthropoda (18)       26                  2             1             2
+Diania (8)              31                  1             1             2
+Tardigrada (17)         32                  5             5             6
+Aysheaia (9)            33                  2             1             5
+-------------------------------------------------------------------------
+Sum                                        67
+
+Tree length = 67
+Consistency index (CI) = 0.5672
+Homoplasy index (HI) = 0.4328
+CI excluding uninformative characters = 0.5323
+HI excluding uninformative characters = 0.4677
+Retention index (RI) = 0.7212
+Rescaled consistency index (RC) = 0.4090
+
+/-- Cycloneuralia
+|
+|               /-- Paucipodia
+|               |
+|               + Microdictyon
+|               |
+|               |         / Hallucigenia
+|               |       /19
+|           /--30       | \----------- Onychodictyon
+|           |   |     /20
+|           |   |     | \ Cardiodictyon
+|           |   |     |
+|           |   |     |     /------- Miraluolishania
+|           |   |     | /--21
+|           |   \----29 |   \------- Onychophora
+|           |         | |
+|           |         | |                        /-- Anomalocaris
+33          |         | |                      /22
+|           |         \28                      | \---- Hurdia
+|       /--31           |              /------23
+|       |   |           |              |       \-- Laggania
+|       |   |           |              |
+|       |   |           |              |           /---------- Schinderhannes
+|       |   |           \-------------27       /--24
+|       |   |                          |       |   \-- Fuxianhuia
+|       |   |                          |     /25
++------32   |                          |     | \ Leanchoilia
+|       |   |                          \----26
+|       |   |                                \---- Euarthropoda
+|       |   |
+|       |   \-- Diania
+|       |
+|       \---------- Tardigrada
+|
+\---- Aysheaia
+
+15 trees saved to file
+"C:\Users\Administrator\Desktop\2018年1月26\Lnature\mp.tre"
+
+50% Majority-rule consensus of 15 trees
+
+/--------------------------------------------------------- Cycloneuralia(1)
+|
+|               /----------------------------------------- Paucipodia(2)
+|               |
+|               +----------------------------------------- Microdictyon(3)
+|               |
+|               |                                   /----- Hallucigenia(4)
+|               |                              /-60-+
+|               |                              |    \----- Onychodictyon(6)
+|         /-100-+    /-----------60------------+
+|         |     |    |                         \---------- Cardiodictyon(5)
+|         |     |    |
+|         |     |    |                              /----- Miraluolishania(7)
+|         |     |    |    /-----------100-----------+
+|         |     |    |    |                         \----- Onychophora(16)
+|         |     \100-+    |
+|         |          |    |                         /----- Anomalocaris(10)
+|         |          |    |                    /-80-+
+|         |          |    |                    |    \----- Laggania(11)
+|         |          |    |              /-100-+
+|    /100-+          \100-+              |     \---------- Hurdia(12)
+|    |    |               |         /-80-+
+|    |    |               |         |    \---------------- Schinderhannes(13)
+|    |    |               |         |
+|    |    |               |    /-80-+--------------------- Fuxianhuia(14)
+|    |    |               |    |    |
++100-+    |               \100-+    \--------------------- Leanchoilia(15)
+|    |    |                    |
+|    |    |                    \-------------------------- Euarthropoda(18)
+|    |    |
+|    |    \----------------------------------------------- Diania(8)
+|    |
+|    \---------------------------------------------------- Tardigrada(17)
+|
+\--------------------------------------------------------- Aysheaia(9)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1       1
+123456789012345678      Freq      %
+-----------------------------------
+.*******.*********        15 100.0%
+.*******.*******.*        15 100.0%
+.******..*******.*        15 100.0%
+...****..*******.*        15 100.0%
+.........******..*        15 100.0%
+.........***......        15 100.0%
+......*..*******.*        15 100.0%
+......*........*..        15 100.0%
+.........******...        12  80.0%
+.........****.....        12  80.0%
+.........**.......        12  80.0%
+...*.*............         9  60.0%
+...***............         9  60.0%
+.........****.*...         6  40.0%
+.............**...         6  40.0%
+...*.**..*******.*         6  40.0%
+.....**..*******.*         6  40.0%
+.*.****..*******.*         5  33.3%
+..*****..*******.*         5  33.3%
+............***..*         3  20.0%
+............***...         3  20.0%
+............**....         3  20.0%
+.........*.*......         3  20.0%
+
+Consensus tree(s) written to treefile:
+C:\Users\Administrator\Desktop\2018年1月26\Lnature\MajorityConTree.tre

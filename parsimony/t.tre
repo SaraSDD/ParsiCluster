@@ -1,0 +1,29 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat Sep 30 18:02:47 2017]
+
+	Translate
+		1 1Tubiluchus_priapulida,
+		2 2Cricocosmia,
+		3 3Aysheaia,
+		4 4Onychodictyon_ferox,
+		5 8Paucipodia,
+		6 9Microdictyon,
+		7 11Hallucigenia_sparsa,
+		8 12Hallcigenia_fortis,
+		9 15Collinsia_ciliosa,
+		10 25Halobiotus_Eutardigrada,
+		11 30Kerygmachela,
+		12 32Opabinia,
+		13 33Anonalocaris,
+		14 34Peytoia,
+		15 35Hurdia,
+		16 38Fuxianhuia,
+		17 39Chengjiangocaris,
+		18 40Leanchoilia,
+		19 41Alalcomenaeus,
+		20 42Misszhouia_longicaudata,
+		21 43Kuamaia_lata,
+		;
+tree PAUP = [&U] (1,(2,((3,(4,(8,(9,(11,(12,15)))))),(25,((30,(32,((33,35),34))),((38,39),((40,41),(42,43))))))));
+End;

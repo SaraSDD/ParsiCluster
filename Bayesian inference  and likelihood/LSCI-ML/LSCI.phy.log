@@ -1,0 +1,116 @@
+IQ-TREE multicore version 1.6.1 for Windows 64-bit built Dec 26 2017
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LAPTOP-Q5UID8SI (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s LSCI.phy -m MK -bb 1000 -minsup 0.5 -redo
+Seed:    256383 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat May 19 22:29:05 2018
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file LSCI.phy ... Nexus format detected
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+Alignment has 14 sequences with 31 columns, 29 distinct patterns
+28 parsimony-informative, 3 singleton sites, 0 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  Cycloneuralia     12.90%    failed      0.31%
+   2  Aysheaia           3.23%    passed     22.77%
+   3  Xenusion           0.00%    passed     18.99%
+   4  Hadranax           0.00%    passed      9.00%
+   5  Jianshanopodia     3.23%    passed     76.24%
+   6  Magadictyon        0.00%    passed     63.64%
+   7  Kerygmachela       3.23%    passed     90.27%
+   8  Pambdelurion       3.23%    passed     34.87%
+   9  Opabinia           0.00%    passed     24.74%
+  10  Anomalocaris       0.00%    failed      0.01%
+  11  CCT                6.45%    failed      0.00%
+  12  Onychodictyon      9.68%    passed     16.57%
+  13  Peripatus          3.23%    failed      1.18%
+  14  Miraluolishania    3.23%    passed     81.15%
+****  TOTAL              3.46%  4 sequences failed composition chi2 test (p-value<5%; df=2)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.006 seconds, parsimony score: 56 (based on 31 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 256383)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -253.640
+Optimal log-likelihood: -245.558
+Parameters optimization took 1 rounds (0.010 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.012 seconds
+Log-likelihood of BIONJ tree: -244.230
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.070 second
+Computing log-likelihood of 98 initial trees ... 0.105 seconds
+Current best score: -243.402
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -243.389
+Iteration 10 / LogL: -243.396 / Time: 0h:0m:0s
+Iteration 20 / LogL: -243.393 / Time: 0h:0m:0s
+Finish initializing candidate tree set (2)
+Current best tree score: -243.389 / CPU time: 0.383
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -243.392 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 40 / LogL: -243.849 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 50 / LogL: -243.401 / Time: 0h:0m:1s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -259.907
+Iteration 60 / LogL: -243.392 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 70 / LogL: -244.106 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -246.662 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 90 / LogL: -244.102 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -244.781 / Time: 0h:0m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -262.385
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -243.389
+Optimal log-likelihood: -243.389
+Parameters optimization took 1 rounds (0.008 sec)
+BEST SCORE FOUND : -243.389
+Creating bootstrap support values...
+Split supports printed to NEXUS file LSCI.phy.splits.nex
+Total tree length: 2.170
+
+Total number of iterations: 102
+CPU time used for tree search: 2.375 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.584 sec (0h:0m:2s)
+Total CPU time used: 2.438 sec (0h:0m:2s)
+Total wall-clock time used: 2.845 sec (0h:0m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file LSCI.phy.splits.nex...
+14 taxa and 102 splits.
+Consensus tree written to LSCI.phy.contree
+Reading input trees file LSCI.phy.contree
+Log-likelihood of consensus tree: -243.389
+
+Analysis results written to: 
+  IQ-TREE report:                LSCI.phy.iqtree
+  Maximum-likelihood tree:       LSCI.phy.treefile
+  Likelihood distances:          LSCI.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          LSCI.phy.splits.nex
+  Consensus tree:                LSCI.phy.contree
+  Screen log file:               LSCI.phy.log
+
+Date and Time: Sat May 19 22:29:08 2018

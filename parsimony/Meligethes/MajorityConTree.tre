@@ -1,0 +1,38 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Dec 04 11:53:42 2017]
+[!
+>Consensus of 11 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>   Optimality criterion = maximum parsimony
+>      Character-status summary:
+>        Of 60 total characters:
+>          All characters are of type 'unord'
+>          All characters have equal weight
+>          1 character is constant
+>          11 variable characters are parsimony-uninformative
+>          Number of parsimony-informative characters = 48
+>      Gaps are treated as "missing"
+>   Starting tree(s) obtained via stepwise addition
+>   Addition sequence: random
+>      Number of replicates = 10
+>      Starting seed = 569331348
+>   Number of trees held at each step during stepwise addition = 1
+>   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>   Steepest descent option not in effect
+>   Initial 'MaxTrees' setting = 100
+>   Branches collapsed (creating polytomies) if maximum branch length is zero
+>   'MulTrees' option in effect
+>   Topological constraints not enforced
+>   Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 27757
+>   Score of best tree(s) found = 174
+>   Number of trees retained = 11
+>   Time used = 0.02 sec
+]
+	tree MajRule = [&U] (PriatokarensisNakane,((M.aeneus,(M.matronalisAudisioetSpornkraft,(M.difficilis,(M.coracinusErichson,M.viridescens)))),(((M.simillimusKireitshuk,M.chlorocupreusAudisio),M.circularisSahlberg),(M.sulcatusBrisoutdeBarneville,M.affinisJelinek,(M.polyedricussp.nov.,M.subrugosusGyllenhal)))),EpuraealongulaErichson);
+end;

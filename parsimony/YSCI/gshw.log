@@ -1,0 +1,295 @@
+ 
+P A U P *
+Version 4.0b4a for 32-bit Microsoft Windows
+Sun Dec 03 11:10:55 2017
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  It will expire on 15 Jan 2001.
+        Please report any crashes, apparent calculation errors, or
+        other anomalous results.  There are no restrictions on
+        publication of results obtained with this version, but you
+        should check the WWW site frequently for bug announcements
+        and/or updated versions.  See the README file on the
+        distribution media for details.
+      ----------------------------------------------------------------
+
+Character-status summary:
+  Current optimality criterion = maximum parsimony
+  No characters are excluded
+  Of 58 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    2 characters are parsimony-uninformative
+    Number of parsimony-informative characters = 56
+
+Outgroup status changed:
+   1 taxon transferred to outgroup
+   Total number of taxa now in outgroup = 1
+   Number of ingroup taxa = 20
+
+Heuristic search settings:
+   Optimality criterion = maximum parsimony
+      Character-status summary:
+        Of 58 total characters:
+          All characters are of type 'unord'
+          All characters have equal weight
+          2 characters are parsimony-uninformative
+          Number of parsimony-informative characters = 56
+      Gaps are treated as "missing"
+   Starting tree(s) obtained via stepwise addition
+   Addition sequence: random
+      Number of replicates = 10
+      Starting seed = 389135938
+   Number of trees held at each step during stepwise addition = 1
+   Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+   Steepest descent option not in effect
+   Initial 'MaxTrees' setting = 100
+   Branches collapsed (creating polytomies) if maximum branch length is zero
+   'MulTrees' option in effect
+   Topological constraints not enforced
+   Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 78899
+   Score of best tree(s) found = 172
+   Number of trees retained = 5
+   Time used = 0.05 sec
+
+Tree-island profile:
+                     First      Last                     First   Times
+Island      Size      tree      tree        Score    replicate     hit
+----------------------------------------------------------------------
+     1         5         1         5          172            1      10
+
+Tree number 1 (rooted using user-specified outgroup)
+
+/------------------------------------------------------------ 1Tubiluchus pria
+|
++------------------------------------------------------------ 2Cricocosmia
+|
+|                          /--------------------------------- 3Aysheaia
+|                          |
+|                          |     /--------------------------- 4Onychodictyon f
+|                   /------+     |
+|                   |      |     |                   /------- 8Paucipodia
+|                   |      |     |             /-----+
+|                   |      \-----+             |     \------- 9Microdictyon
+|                   |            |      /------+
+|                   |            |      |      |     /------- 11Hallucigenia s
+|            /------+            |      |      \-----+
+|            |      |            \------+            \------- 12Hallcigenia fo
+|            |      |                   |
+|            |      |                   \-------------------- 15Collinsia cili
+|            |      |
+|      /-----+      \---------------------------------------- 25Halobiotus Eut
+|      |     |
+|      |     |                   /--------------------------- 30Kerygmachela
+|      |     |                   |
+|      |     |                   |      /-------------------- 32Opabinia
+|      |     \-------------------+      |
+|      |                         |      |            /------- 33Anonalocaris
+|      |                         \------+      /-----+
+\------+                                |      |     \------- 34Peytoia
+       |                                \------+
+       |                                       \------------- 35Hurdia
+       |
+       |                                             /------- 38Fuxianhuia
+       |                                /------------+
+       |                                |            \------- 39Chengjiangocar
+       |                                |
+       \--------------------------------+            /------- 40Leanchoilia
+                                        |      /-----+
+                                        |      |     \------- 41Alalcomenaeus
+                                        \------+
+                                               |     /------- 42Misszhouia lon
+                                               \-----+
+                                                     \------- 43Kuamaia lata
+
+Tree description:
+
+   Unrooted tree(s) rooted using outgroup method
+   Optimality criterion = maximum parsimony
+   Character-status summary:
+     Of 58 total characters:
+       All characters are of type 'unord'
+       All characters have equal weight
+       2 characters are parsimony-uninformative
+       Number of parsimony-informative characters = 56
+   Gaps are treated as "missing"
+   Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #1 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+1Tubiluchus pria (1)*   40                  2             1             2
+2Cricocosmia (2)        40                  6             6             7
+    39                  40                 16             7            16
+    33                  39                  4             4            12
+    28                  33                  7             4            10
+    27                  28                  6             2             8
+3Aysheaia (3)           27                  6             5             8
+    26                  27                  7             4             8
+4Onychodictyon f (4)    26                  4             4             6
+    25                  26                  6             4             6
+    24                  25                  3             2             3
+    22                  24                  3             1             3
+8Paucipodia (5)         22                  3             3             3
+9Microdictyon (6)       22                  0             0             0
+    23                  24                  2             2             4
+11Hallucigenia s (7)    23                  5             4             5
+12Hallcigenia fo (8)    23                  0             0             1
+15Collinsia cili (9)    25                  9             9            12
+25Halobiotus Eut (10)   28                  5             3             8
+    32                  33                 12            10            14
+30Kerygmachela (11)     32                 11             8            15
+    31                  32                  7             3            10
+32Opabinia (12)         31                  1             1             1
+    30                  31                  7             7             7
+    29                  30                  1             1             1
+33Anonalocaris (13)     29                  2             2             2
+34Peytoia (14)          29                  3             3             3
+35Hurdia (15)           30                  0             0             0
+    38                  39                 20            10            22
+    34                  38                  3             1             7
+38Fuxianhuia (16)       34                  0             0             0
+39Chengjiangocar (17)   34                  0             0             0
+    37                  38                  7             3             9
+    35                  37                  1             1             1
+40Leanchoilia (18)      35                  1             1             1
+41Alalcomenaeus (19)    35                  0             0             0
+    36                  37                  1             1             1
+42Misszhouia lon (20)   36                  0             0             0
+43Kuamaia lata (21)     36                  1             1             1
+-------------------------------------------------------------------------
+Sum                                       172
+
+Tree length = 172
+Consistency index (CI) = 0.6628
+Homoplasy index (HI) = 0.3372
+CI excluding uninformative characters = 0.6568
+HI excluding uninformative characters = 0.3432
+Retention index (RI) = 0.8304
+Rescaled consistency index (RC) = 0.5504
+
+/-- 1Tubiluchus pria
+|
++------ 2Cricocosmia
+|
+|                                  /------- 3Aysheaia
+|                                  |
+|                                  |       /---- 4Onychodictyon f
+|                            /----27       |
+|                            |     |       |            /--- 8Paucipodia
+|                            |     |       |         /-22
+|                            |     \------26         |  \ 9Microdictyon
+|                            |             |     /--24
+|                            |             |     |   | /----- 11Hallucigenia s
+40                   /------28             |     |   \23
+|                    |       |             \----25     \ 12Hallcigenia fo
+|                    |       |                   |
+|                    |       |                   \---------- 15Collinsia cili
+|                    |       |
+|                /--33       \----- 25Halobiotus Eut
+|                |   |
+|                |   |            /------------ 30Kerygmachela
+|                |   |            |
+|                |   |            |       /- 32Opabinia
+|                |   \-----------32       |
+|                |                |       |       /--- 33Anonalocaris
+|                |                \------31      29
+\---------------39                        |      |\---- 34Peytoia
+                 |                        \-----30
+                 |                               \ 35Hurdia
+                 |
+                 |                        / 38Fuxianhuia
+                 |                     /-34
+                 |                     |  \ 39Chengjiangocar
+                 |                     |
+                 \--------------------38       /- 40Leanchoilia
+                                       |      35
+                                       |      |\ 41Alalcomenaeus
+                                       \-----37
+                                              |/ 42Misszhouia lon
+                                              36
+                                               \- 43Kuamaia lata
+
+5 trees saved to file "C:\Users\HP\Desktop\古生物\2\2I\mp.tre"
+
+50% Majority-rule consensus of 5 trees
+
+/-------------------------------------------------------- 1Tubiluchus pria(1)
+|
++-------------------------------------------------------- 2Cricocosmia(2)
+|
+|                        /------------------------------- 3Aysheaia(3)
+|                        |
+|                        |     /------------------------- 4Onychodictyon f(4)
+|                  /-60--+     |
+|                  |     |     |                  /------ 8Paucipodia(5)
+|                  |     \-100-+     /-----60-----+
+|                  |           |     |            \------ 9Microdictyon(6)
+|                  |           |     |
+|                  |           \-100-+            /------ 11Hallucigenia s(7)
+|           /-100--+                 |      /-100-+
+|           |      |                 |      |     \------ 12Hallcigenia fo(8)
+|           |      |                 \--80--+
+|           |      |                        \------------ 15Collinsia cili(9)
+|           |      |
+|     /-100-+      \------------------------------------- 25Halobiotus Eut(10)
+|     |     |
+|     |     |                  /------------------------- 30Kerygmachela(11)
+|     |     |                  |
+|     |     |                  |     /------------------- 32Opabinia(12)
+|     |     \-------100--------+     |
+|     |                        |     |            /------ 33Anonalocaris(13)
+|     |                        \-100-+      /-100-+
+\-100-+                              |      |     \------ 34Peytoia(14)
+      |                              \-100--+
+      |                                     \------------ 35Hurdia(15)
+      |
+      |                                           /------ 38Fuxianhuia(16)
+      |                              /----100-----+
+      |                              |            \------ 39Chengjiangocar(17)
+      |                              |
+      \-------------100--------------+            /------ 40Leanchoilia(18)
+                                     |      /-100-+
+                                     |      |     \------ 41Alalcomenaeus(19)
+                                     \-100--+
+                                            |     /------ 42Misszhouia lon(20)
+                                            \-100-+
+                                                  \------ 43Kuamaia lata(21)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1         22
+123456789012345678901      Freq      %
+--------------------------------------
+..*******************         5 100.0%
+..*************......         5 100.0%
+..********...........         5 100.0%
+.................**..         5 100.0%
+...******............         5 100.0%
+....*****............         5 100.0%
+...........****......         5 100.0%
+............***......         5 100.0%
+......**.............         5 100.0%
+..........*****......         5 100.0%
+...............**....         5 100.0%
+.................****         5 100.0%
+............**.......         5 100.0%
+...............******         5 100.0%
+...................**         5 100.0%
+......***............         4  80.0%
+....**...............         3  60.0%
+..*******............         3  60.0%
+.....****............         2  40.0%
+...*******...........         2  40.0%
+....****.............         1  20.0%
+
+Consensus tree(s) written to treefile:
+C:\Users\HP\Desktop\古生物\2\2I\MajorityConTree.tre

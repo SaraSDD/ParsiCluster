@@ -1,0 +1,53 @@
+#-EXUS
+
+begin data;
+dimensions ntax=16 nchar=41;
+format datatype = standard gap = - missing =?;
+matrix
+
+Cnidaria   11-00000000-0-000-0000000100000----0-0000
+Arthropoda   11220000111011---001111000000-----0-0-000
+Onychophora   11011000111011---001111000000-----0-0-000
+Kinorhyncha   10021011111000---001111000000-----0-0-000
+Priapulida   10021011110-00---001111000000-----0-0-000
+Mollusca   11010000111010---000000100000-----0-0-000
+Annelida   11010000111010---001000100000-----0-0-000
+Echinodermata   11200000110-0--0-110000000000-----0-0-000
+Enteropneusta   11210000110-0----110000001010---10110-000
+Urochordata   11110000101-00---000000001010---101110000
+Cephalochordata   11110000101-00---110000001010---10111-010
+Vertebrata   11010000101-00---110000001010---10001-011
+Vetulicola   111202001111001001100--000111010001100000
+Beidazoon   111202001111001001100--000111010001100000
+Pomatrum   111211001111001001100--000011010011100000
+Xidazoon   111211001111001001100--000011010011100000
+
+;
+end;
+
+BEGI- LABELS;
+null
+E-D;
+
+BEGI- SETS;
+
+
+	CHARPARTITIO- * matrices = 'Matrix in file "Hnature.nex"' : 1-41 ;
+	charset 'Matrix in file "Hnature.nex"' = 1-41;
+E-D;
+
+begin mrbayes;
+	charset Character_Matrix = 1-41;
+	partition matrices = 1: Character_Matrix;
+	set partition = matrices;
+	lset  coding = variable rates = gamma;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	mcmcp ngen= 10000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=4 savebrlens=yes;
+	mcmc;
+	sump;
+	sumt;
+
+end;

@@ -1,0 +1,87 @@
+#NEXUS
+[written Sat May 19 22:25:28 CST 2018 by Mesquite  version 3.40 (build 877) at LAPTOP-Q5UID8SI/192.168.191.1]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=18;
+	TAXLABELS
+		Cycloneuralia Paucipodia Microdictyon Hallucigenia Cardiodictyon 'O-ychodictyon' Miraluolishania Diania Aysheaia Anomalocaris Laggania Hurdia Schinderhannes Fuxianhuia Leanchoilia Onychophora Tardigrada Euarthropoda 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=38;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2";
+	MATRIX
+	Cycloneuralia    100-----00-00-00-----0----0101010--000
+	Paucipodia       10000---00000-01000100-00-0100--001000
+	Microdictyon     10000---00000-01000100-00-010100001000
+	Hallucigenia     00010---01001001000100-00-010110001000
+	Cardiodictyon    00010---01001001000100-00-010100001000
+	'O-ychodictyon'  00010---01000-11010100-00-011110000000
+	Miraluolishania  00000---01111011001100-00-011110001000
+	Diania           10000---00100-01101100-00-010100001000
+	Aysheaia         1100100100000-01001110-00-010101000000
+	Anomalocaris     0010121111011100-----1100-00-0--111110
+	Laggania         0010121111011100-----1100-00-0--110000
+	Hurdia           0010121111011100-----1000-00-0--011010
+	Schinderhannes   00101211010111011000-0-01010-0--001110
+	Fuxianhuia       00001210010111111000-0-01110-0--011100
+	Leanchoilia      00001210010111011000-0-01110-0--111000
+	Onychophora      01000---01011011001100-00-010101001001
+	Tardigrada       00000---20001001101110-00-00-100000001
+	Euarthropoda     00000---01011111100100-01110-0--111000
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  38;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  38;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1526739928759;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4939069934574083909;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 5106487859216299878;
+			mqVersion 340;
+			checksumv 0 3 3001486208 null  getNumChars 38 numChars 38 getNumTaxa 18 numTaxa 18   short true   bits 7   states 7   sumSquaresStatesOnly 1255.0 sumSquares 1255.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 229;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+
